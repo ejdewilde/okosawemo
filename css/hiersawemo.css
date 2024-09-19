@@ -1,0 +1,225 @@
+#domtaart {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kol {
+  width: 65%;
+  min-width: 300px;
+  padding: 1em;
+  float: left;
+}
+
+.kol1 {
+  max-height: 500px;
+  overflow: auto;
+  padding-left: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .kol {
+    padding: 1em;
+    float: left;
+    width: 100%;
+  }
+  .kol1 {
+    width: 100%;
+    font-size: 80%;
+    font-style: normal;
+    max-height: 400px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .kol {
+    min-height: 100px;
+    width: 100%;
+  }
+}
+
+.inner-wrap {
+  max-width: 1500px;
+}
+
+.sawemotabel {
+  width: 75%;
+  margin: auto;
+  margin-top: 40px;
+  color: #011763;
+}
+
+.sawemotabel th,
+.sawemotd {
+  text-align: left;
+}
+
+.tabelkopje {
+  text-align: left;
+  font-size: 150%;
+  margin-bottom: 30px;
+  color: #e3032c;
+}
+.tabelkopje_kl {
+  text-align: left;
+  font-size: 100%;
+  font-weight: 500;
+  /*margin-top: 60px; 
+    margin-bottom: 30px; 
+    */
+}
+.tabelkopje_li {
+  color: #011763;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 90%;
+  font-weight: 500;
+  padding-left: 10px;
+  /*margin-top: 60px; 
+      margin-bottom: 30px; 
+      */
+}
+.tabelkopje_lice {
+  color: #011763;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 90%;
+  font-weight: 500;
+  padding-left: 10px;
+  /*margin-top: 60px; 
+        margin-bottom: 30px; 
+        */
+}
+.tabelkopje_ov {
+  color: #011763;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 90%;
+  font-weight: 500;
+  padding-left: 10px;
+  /*margin-top: 60px; 
+    margin-bottom: 30px; 
+    */
+}
+.tabelitem {
+  color: #011763;
+  text-align: left;
+  font-size: 80%;
+  padding-left: 30px;
+  /*margin-top: 60px; 
+    margin-bottom: 30px; 
+    */
+}
+.tabelgetal {
+  color: #011763;
+  text-align: center;
+  font-size: 80%;
+  padding-left: 30px;
+  /*margin-top: 60px; 
+      margin-bottom: 30px; 
+      */
+}
+
+#header-text-nav-wrap,
+.entry-header {
+  display: none;
+}
+
+#main {
+  padding-top: 0px;
+}
+
+#printknop {
+  float: left;
+  width: 5%;
+}
+#container {
+  width: 100%;
+  height: 520px;
+  float: left;
+}
+
+#primary {
+  width: 100%;
+}
+
+#hoofdmenu,
+#submenu {
+  width: 100%;
+  float: left;
+  height: 100px;
+}
+
+#titels {
+  height: 85px;
+}
+
+#itemruimte {
+  width: 100%;
+  float: left;
+  padding-right: 5px;
+}
+.rapportcijfer {
+  font-weight: bolder;
+  font-size: 120%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #e3032cff;
+}
+
+.toeltip {
+  line-height: 1;
+  font-weight: normal;
+  color: white;
+  padding: 12px;
+  font-size: 80%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: #e3032cff;
+  border-radius: 5px;
+}
+
+/* Creates a small triangle extender for the tooltip 
+.toeltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 50%;
+  line-height: 1;
+  color: #e3032cff;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+*/
+.item {
+  font-size: 80%;
+}
+
+.axis path,
+.axis line {
+  stroke-width: 0;
+  opacity: 0;
+  stroke: #ccc;
+  fill: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  stroke-width: 0;
+  font-weight: normal;
+  color: #6857a1;
+  font-size: 80%;
+}
+
+.catlab {
+  font-style: italic;
+}
+
+#xAxis path,
+#yAxis path,
+#xAxis line,
+#yAxis line {
+  shape-rendering: crispEdges;
+  stroke: #ccc;
+  fill: #fff;
+  opacity: 0;
+}

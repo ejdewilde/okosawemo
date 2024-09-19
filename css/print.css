@@ -1,0 +1,53 @@
+.kol {
+  width: 60%;
+  padding: 1em;
+  float: left;
+  background-color: #fff;
+}
+
+.kol1 {
+  padding: 1em;
+  padding-left: 2em;
+  background-color: #fff;
+}
+
+.sawemotabel {
+  break-after: avoid;
+  width: 90%;
+  margin: auto;
+  color: #011763;
+}
+
+.sawemotabel th,
+.sawemotd {
+  text-align: left;
+}
+
+.tabelkopje {
+  break-after: avoid;
+}
+
+.tabelkopje_kl {
+  break-after: avoid;
+}
+
+.tabelkopje_ov {
+  break-after: avoid;
+}
+
+#header-text-nav-wrap,
+.entry-header,
+#header#masthead,
+.container {
+  display: none;
+}
+#header-text-nav-container {
+  background-color: #fff;
+}
+#main {
+  padding-top: 20px;
+  background-color: #fff;
+}
+#content {
+  background-color: #fff;
+}
